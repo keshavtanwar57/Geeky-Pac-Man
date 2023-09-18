@@ -9,6 +9,7 @@ WIDTH, HEIGHT = 700, 500  # Increased WIDTH to accommodate all options
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 FONT = pygame.font.Font(None, 36)
+
 QUESTION = "What is your favorite programming language?"
 OPTIONS = ["A. Python", "B. Java", "C. JavaScript", "D. C++"]
 
