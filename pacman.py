@@ -11,6 +11,7 @@ WIDTH = 900
 HEIGHT = 950
 
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
+pygame.display.set_caption("Geeky PACMAN")
 
 timer = pygame.time.Clock()
 fps = 80
@@ -907,8 +908,12 @@ while run:
     if current_time - last_question_time >= question_timer:
         game_paused = True
         selected_option = show_question()
-        if selected_option is not None:
-            print("Selected option:", selected_option)
+        if selected_option:
+            score *= 2
+            print("Correct Answer")
+        else:
+            ghost_speeds = [speed * 2 for speed in ghost_speeds]
+            print("Incorrect Answer")
         last_question_time = current_time
 
         # Resume the game

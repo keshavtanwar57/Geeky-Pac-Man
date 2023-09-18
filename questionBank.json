@@ -1,0 +1,218 @@
+[
+  {
+    "Question": "Number of bits used by the IPv6 address",
+    "Options": [
+      {
+        "Option": "A. 32 bit"
+      },
+      {
+        "Option": "B. 64 bit"
+      },
+      {
+        "Option": "C. 128 bits"
+      },
+      {
+        "Option": "D. 256 bit"
+      }
+    ],
+    "Correct Answer": "C. 128 bits"
+  },
+  {
+    "Question": "What technology is used to record cryptocurrency transactions?",
+    "Options": [
+      {
+        "Option": "A. Digital Wallet"
+      },
+      {
+        "Option": "B. Mining"
+      },
+      {
+        "Option": "C. Blockchain"
+      },
+      {
+        "Option": "D. Token"
+      }
+    ],
+    "Correct Answer": "C. Blockchain"
+  },
+  {
+    "Question": "Which tech buzzword is closely related to Artificial Intelligence (AI)?",
+    "Options": [
+      {
+        "Option": "A. Virtual reality"
+      },
+      {
+        "Option": "B. Machine learning"
+      },
+      {
+        "Option": "C. Cryptocurrency"
+      },
+      {
+        "Option": "D. Microservices"
+      }
+    ],
+    "Correct Answer": "B. Machine Learning"
+  },
+  {
+    "Question": "Which of the following is an important step towards the paperless concept?",
+    "Options": [
+      {
+        "Option": "A. Doxing"
+      },
+      {
+        "Option": "B. Digitizing"
+      },
+      {
+        "Option": "C. Debugging"
+      },
+      {
+        "Option": "D. Downloading"
+      }
+    ],
+    "Correct Answer": "B. Digitizing"
+  },
+  {
+    "Question": "What technology is used to make telephone calls over the Internet possible?",
+    "Options": [
+      {
+        "Option": "A. Bluetooth"
+      },
+      {
+        "Option": "B. Ethernet"
+      },
+      {
+        "Option": "C. NFC"
+      },
+      {
+        "Option": "D. VoIP"
+      }
+    ],
+    "Correct Answer": "D. VoIP"
+  },
+  {
+    "Question": "Which one is the first search engine in internet?",
+    "Options": [
+      {
+        "Option": "A. Google"
+      },
+      {
+        "Option": "B. Archie"
+      },
+      {
+        "Option": "C. Altavista"
+      },
+      {
+        "Option": "D. WAIS"
+      }
+    ],
+    "Correct Answer": "B. Archie"
+  },
+  {
+    "Question": "First computer virus is known as",
+    "Options": [
+      {
+        "Option": "A. Rabbit"
+      },
+      {
+        "Option": "B. Creeper Virus"
+      },
+      {
+        "Option": "C. Elk Cloner"
+      },
+      {
+        "Option": "D. SCA Virus"
+      }
+    ],
+    "Correct Answer": "B. Creeper Virus"
+  },
+  {
+    "Question": "Firewall in computer is used for",
+    "Options": [
+      {
+        "Option": "A. Data Transmission"
+      },
+      {
+        "Option": "B. Security"
+      },
+      {
+        "Option": "C. Authentication"
+      },
+      {
+        "Option": "D. Monitoring"
+      }
+    ],
+    "Correct Answer": "B. Security"
+  },
+  {
+    "Question": "Firewall in computer is used for",
+    "Options": [
+      {
+        "Option": "A.  20 GB"
+      },
+      {
+        "Option": "B.  35 GB"
+      },
+      {
+        "Option": "C.  12 GB"
+      },
+      {
+        "Option": "D. 50 GB"
+      }
+    ],
+    "Correct Answer": "D. 50 GB"
+  },
+  {
+    "Question": "Number of layers in the OSI (Open Systems Interconnection) Model",
+    "Options": [
+      {
+        "Option": "A.  9"
+      },
+      {
+        "Option": "B.  3"
+      },
+      {
+        "Option": "C.  7"
+      },
+      {
+        "Option": "D. 11"
+      }
+    ],
+    "Correct Answer": "C. 7"
+  },
+  {
+    "Question": "gif is an extension of",
+    "Options": [
+      {
+        "Option": "A.  Image file"
+      },
+      {
+        "Option": "B.  Video file"
+      },
+      {
+        "Option": "C.  Audio file"
+      },
+      {
+        "Option": "D. Word file"
+      }
+    ],
+    "Correct Answer": "A. Image file"
+  },
+  {
+    "Question": "Computer Hard Disk was first introduced in 1956 by",
+    "Options": [
+      {
+        "Option": "A.  Dell"
+      },
+      {
+        "Option": "B.  Apple"
+      },
+      {
+        "Option": "C.  Microsoft"
+      },
+      {
+        "Option": "D. IBM"
+      }
+    ],
+    "Correct Answer": "D. IBM"
+  }
+]
