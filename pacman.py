@@ -103,7 +103,7 @@ moving = False
 
 ghost_speeds = [1, 1, 1, 1]
 startup_counter = 0
-lives = 2
+lives = 1
 
 game_over = False
 game_won = False
@@ -627,13 +627,16 @@ def draw_misc():
         pygame.draw.rect(screen, "white", [50, 200, 800, 300], 0, 10)
         pygame.draw.rect(screen, "dark gray", [70, 220, 760, 260], 0, 10)
         gameover_text = font.render(
-            f"Game over! Space bar to restart! Score: {score}", True, "red")
+            f"Game over!", True, "red")
+        print(f"Final Score: {score}")
         screen.blit(gameover_text, (100, 300))
+
     if game_won:
         pygame.draw.rect(screen, "white", [50, 200, 800, 300], 0, 10)
         pygame.draw.rect(screen, "dark gray", [70, 220, 760, 260], 0, 10)
         gameover_text = font.render(
-            "Victory! Space bar to restart!", True, "green")
+            "Victory!", True, "green")
+        print(f"Final Score: {score}")
         screen.blit(gameover_text, (100, 300))
 
 
@@ -1356,7 +1359,6 @@ while run:
 
 print(f"Final Score: {score}")
 pygame.quit()
-
 pygame.display.quit()
 
 

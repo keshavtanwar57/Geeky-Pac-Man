@@ -2,6 +2,7 @@ import pygame
 import sys
 import json
 import random
+import textwrap
 
 f = open('D:\Downloads\Geeky-Pac-Man-main\questionBank.json')
 data = json.load(f)
@@ -14,6 +15,13 @@ WIDTH, HEIGHT = 900, 500  # Increased WIDTH to accommodate all options
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 FONT = pygame.font.Font(None, 36)
+
+
+def wrap_text(text, width):
+    # Use textwrap to break the text into multiple lines
+    wrapper = textwrap.TextWrapper(width=width)
+    wrapped_text = wrapper.wrap(text)
+    return wrapped_text
 
 
 # Create a Pygame window
@@ -54,9 +62,20 @@ def show_question():
         screen.blit(background, (0, 0))
 
         # Draw the question
-        question_text = FONT.render(question_data["Question"], True, BLACK)
-        question_rect = question_text.get_rect(center=(WIDTH // 2, 100))
-        screen.blit(question_text, question_rect)
+        # question_text = FONT.render(question_data["Question"], True, BLACK)
+        # question_rect = question_text.get_rect(center=(WIDTH // 2, 100))
+        # screen.blit(question_text, question_rect)
+        # Adjust the character count as needed
+        question_lines = wrap_text(question_data["Question"], 50)
+
+        # Draw the question lines
+        y_offset = 100
+        for line in question_lines:
+            question_text = FONT.render(line, True, BLACK)
+            question_rect = question_text.get_rect(
+                center=(WIDTH // 2, y_offset))
+            screen.blit(question_text, question_rect)
+            y_offset += question_rect.height + 10
 
         # Create and draw option buttons
         for i, option in enumerate(question_data["Options"]):
@@ -77,5 +96,6 @@ def show_question():
         if selected_option:
             return str(selected_option["Option"]) == str(correct_answer)
     return False
+
 
 # show_question()

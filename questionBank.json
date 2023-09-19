@@ -219,229 +219,217 @@
     "Question": "Which computer program converts assembly language to machine language",
     "Options": [
       {
-        "Option": "(a) Interpreter"
+        "Option": "A. Interpreter"
       },
       {
-        "Option": "(b) Compiler"
+        "Option": "C. Compiler"
       },
       {
-        "Option": "(c) Assembler"
+        "Option": "C. Assembler"
       },
       {
-        "Option": "(d) Comparator"
+        "Option": "D. Comparator"
       }
     ],
-    "Correct Answer": "(c) Assembler"
+    "Correct Answer": "C. Assembler"
   },
   {
-    "Question": "In which year ‘@’ sign was first chosen for its use in an e-mail address",
+    "Question": "In which year '@' sign was first chosen for its use in an e-mail address",
     "Options": [
       {
-        "Option": "(a) 1976"
+        "Option": "A. 1976"
       },
       {
-        "Option": "(b) 1980"
+        "Option": "B. 1980"
       },
       {
-        "Option": "(c) 1977"
+        "Option": "C. 1977"
       },
       {
-        "Option": "(d) 1972"
+        "Option": "D. 1972"
       }
     ],
-    "Correct Answer": "(d) 1972"
+    "Correct Answer": "D. 1972"
   },
   {
     "Question": "Which one is the latest one from PARAM SuperSeries computers",
     "Options": [
       {
-        "Option": "(a) PARAM Yuva II"
+        "Option": "A. PARAM Yuva II"
       },
       {
-        "Option": "(b) PARAM 10000"
+        "Option": "B. PARAM 10000"
       },
       {
-        "Option": "(c) PARAM Padma"
+        "Option": "C. PARAM Padma"
       },
       {
-        "Option": "(d) PARAMnet"
+        "Option": "D. PARAMnet"
       }
     ],
-    "Correct Answer": "(a) PARAM Yuva II"
+    "Correct Answer": "A. PARAM Yuva II"
   },
   {
-    "Question": "A folder in Windows computer can’t be made with the name",
+    "Question": "A folder in Windows computer can't be made with the name",
     "Options": [
       {
-        "Option": "(a) can"
+        "Option": "A. can"
       },
       {
-        "Option": "(b) con"
+        "Option": "B. con"
       },
       {
-        "Option": "(c) mak"
+        "Option": "C. mak"
       },
       {
-        "Option": "(d) make"
+        "Option": "D. make"
       }
     ],
-    "Correct Answer": "(b) con"
+    "Correct Answer": "B. con"
   },
   {
     "Question": "What is the extension type of the Excel 2007 files",
     "Options": [
       {
-        "Option": "(a) .xls"
+        "Option": "A. .xls"
       },
       {
-        "Option": "(b) .xlsx"
+        "Option": "B. .xlsx"
       },
       {
-        "Option": "(c) .xsl"
+        "Option": "C. .xsl"
       },
       {
-        "Option": "(d) None of the above"
+        "Option": "D. None of the above"
       }
     ],
-    "Correct Answer": "(b) .xlsx"
+    "Correct Answer": "B. .xlsx"
   },
   {
     "Question": "The maximum number of rows supported by Excel 2003 spreadsheet is",
     "Options": [
       {
-        "Option": "(a) 10,000"
+        "Option": "A. 10,000"
       },
       {
-        "Option": "(b) 35,356"
+        "Option": "B. 35,356"
       },
       {
-        "Option": "(c) 55,782"
+        "Option": "C. 55,782"
       },
       {
-        "Option": "(d) 65,536"
+        "Option": "D. 65,536"
       }
     ],
-    "Correct Answer": "(d) 65,536"
+    "Correct Answer": "D. 65,536"
   },
   {
     "Question": "Which of the following is not one of the early 'protocols,' or ways to use the Internet?",
     "Options": [
       {
-        "Option": "A) Blogging"
+        "Option": "A. Blogging"
       },
       {
-        "Option": "B) Telnet"
+        "Option": "B. Telnet"
       },
       {
-        "Option": "C) Gopher"
+        "Option": "C. Gopher"
       },
       {
-        "Option": "D) FTP"
+        "Option": "D. FTP"
       }
     ],
-    "Correct Answer": "Blogging"
+    "Correct Answer": "A. Blogging"
   },
   {
     "Question": "A network designed to allow communication within an organization is called:",
     "Options": [
       {
-        "Option": "A) the World Wide Web"
+        "Option": "A. the World Wide Web"
       },
       {
-        "Option": "B) Yahoo"
+        "Option": "B. Yahoo"
       },
       {
-        "Option": "C) an intranet"
+        "Option": "C. an intranet"
       },
       {
-        "Option": "D) the Internet"
+        "Option": "D. the Internet"
       }
     ],
-    "Correct Answer": "an intranet"
+    "Correct Answer": "C. an intranet"
   },
   {
-    "Question": "What is the value of π (pi) to three decimal places?",
+    "Question": "What is the value of Pi to three decimal places?",
     "Options": [
       {
-        "Option": "a) 3.141"
+        "Option": "A. 3.141"
       },
       {
-        "Option": "b) 3.142"
+        "Option": "B. 3.142"
       },
       {
-        "Option": "c) 3.1415"
+        "Option": "C. 3.1415"
       },
       {
-        "Option": "d) 3.1409"
+        "Option": "D. 3.1409"
       }
     ],
-    "Correct Answer": "c"
+    "Correct Answer": "C. 3.142"
   },
   {
     "Question": "What year did Apple launch the Macintosh 128K?",
     "Options": [
       {
-        "Option": "1983"
+        "Option": "A. 1983"
       },
       {
-        "Option": "1985"
+        "Option": "B. 1985"
       },
       {
-        "Option": "1977"
+        "Option": "C. 1977"
       },
       {
-        "Option": "1999"
+        "Option": "D. 1999"
       }
     ],
-    "Correct Answer": "1985"
+    "Correct Answer": "B. 1985"
   },
   {
     "Question": "Identify the range of byte data types in JavaScript.",
     "Options": [
       {
-        "Option": "-10 to 9"
+        "Option": "A. -10 to 9"
       },
       {
-        "Option": "-128 to 127"
+        "Option": "B. -128 to 127"
       },
       {
-        "Option": "-32768 to 32767"
+        "Option": "C. -32768 to 32767"
       },
       {
-        "Option": "-2147483648 to 2147483647"
+        "Option": "D. -2147483648 to 2147483647"
       }
     ],
-    "Correct Answer": "-128 to 127"
+    "Correct Answer": "B. -128 to 127"
   },
   {
     "Question": "Which of the following is not a built-in module in NODE.js?",
     "Options": [
       {
-        "Option": "fs"
+        "Option": "A. fs"
       },
       {
-        "Option": "http"
+        "Option": "B. http"
       },
       {
-        "Option": "mysql"
+        "Option": "C. mysql"
       },
       {
-        "Option": "path"
+        "Option": "D. path"
       }
     ],
-    "Correct Answer": "mysql"
-  },
-  {
-    "Question": "Which of the given options best describes the truthfulness of the following statements?",
-    "Options": [
-      {
-        "Option": "i. ASP.NET is a web framework designed and developed by Microsoft"
-      },
-      {
-        "Option": "ii. ASP.NET provides fantastic integration of HTML, CSS, and JavaScript"
-      }
-    ],
-    "Correct Answer": "True, True"
+    "Correct Answer": "C. mysql"
   },
   {
     "Question": "IPV4 Address is",
@@ -480,37 +468,19 @@
     "Correct Answer": "C. Domain Name System"
   },
   {
-    "Question": "What is the meaning of Bandwidth in Network?",
-    "Options": [
-      {
-        "Option": "A. Transmission capacity of a communication channel"
-      },
-      {
-        "Option": "B. Connected Computers in the Network"
-      },
-      {
-        "Option": "C. Class of IP used in Network"
-      },
-      {
-        "Option": "D. None of the Above"
-      }
-    ],
-    "Correct Answer": "A. Transmission capacity of a communication channel"
-  },
-  {
     "Question": "Which keys are used to switch between programs in Windows?",
     "Options": [
       {
-        "Option": "(A) Ctrl+TAB"
+        "Option": "A. Ctrl+TAB"
       },
       {
-        "Option": "(B) Alt+TAB"
+        "Option": "B. Alt+TAB"
       },
       {
-        "Option": "(C) Shift+TAB"
+        "Option": "C. Shift+TAB"
       },
       {
-        "Option": "(D) Shift+Enter"
+        "Option": "D. Shift+Enter"
       }
     ],
     "Correct Answer": "B. Alt+TAB"
@@ -519,186 +489,262 @@
     "Question": "What does the Internet prefix WWW stand for?",
     "Options": [
       {
-        "Option": "A) Wide Width Wickets"
+        "Option": "A. Wide Width Wickets"
       },
       {
-        "Option": "B) World Wide Web"
+        "Option": "B. World Wide Web"
       },
       {
-        "Option": "C) Worldwide Weather"
+        "Option": "C. Worldwide Weather"
       },
       {
-        "Option": "D) Western Washington World"
+        "Option": "D. Western Washington World"
       }
     ],
-    "Correct Answer": "B) World Wide Web"
+    "Correct Answer": "B. World Wide Web"
   },
   {
     "Question": "A network designed to allow communication within an organization is called:",
     "Options": [
       {
-        "Option": "A) the World Wide Web"
+        "Option": "A. the World Wide Web"
       },
       {
-        "Option": "B) Yahoo"
+        "Option": "B. Yahoo"
       },
       {
-        "Option": "C) an intranet"
+        "Option": "C. an intranet"
       },
       {
-        "Option": "D) the Internet"
+        "Option": "D. the Internet"
       }
     ],
-    "Correct Answer": "C) an intranet"
+    "Correct Answer": "C. an intranet"
   },
   {
     "Question": "Which of these products is not made by the Apple Corporation?",
     "Options": [
       {
-        "Option": "A) IMAX"
+        "Option": "A. IMAX"
       },
       {
-        "Option": "B) iPhone"
+        "Option": "B. iPhone"
       },
       {
-        "Option": "C) iMac"
+        "Option": "C. iMac"
       },
       {
-        "Option": "D) iPod"
+        "Option": "D. iPod"
       }
     ],
-    "Correct Answer": "A) IMAX"
+    "Correct Answer": "A. IMAX"
   },
   {
     "Question": "Which of these is a file format for digital images?",
     "Options": [
       {
-        "Option": "A) CIA"
+        "Option": "A. CIA"
       },
       {
-        "Option": "B) JPG"
+        "Option": "B. JPG"
       },
       {
-        "Option": "C) ICBM"
+        "Option": "C. ICBM"
       },
       {
-        "Option": "D) IBM"
+        "Option": "D. IBM"
       }
     ],
-    "Correct Answer": "B) JPG"
+    "Correct Answer": "B. JPG"
   },
   {
-    "Question": "How much did Steve Job’s first computer go for at auction?",
+    "Question": "How much did Steve Job's first computer go for at auction?",
     "Options": [
       {
-        "Option": "$1.2 million"
+        "Option": "A. $1.2 million"
       },
       {
-        "Option": "$500,000"
+        "Option": "B. $500,000"
       },
       {
-        "Option": "$223,000"
+        "Option": "C. $223,000"
       },
       {
-        "Option": "$3.4 million"
+        "Option": "D. $3.4 million"
       }
     ],
-    "Correct Answer": "$1.2 million"
+    "Correct Answer": "A. $1.2 million"
   },
   {
     "Question": "'.MOV' extension refers usually to what kind of file?",
     "Options": [
       {
-        "Option": "(A) Image file"
+        "Option": "A. Image file"
       },
       {
-        "Option": "(B) Animation/movie file"
+        "Option": "B. Animation/movie file"
       },
       {
-        "Option": "(C) Audio file"
+        "Option": "C. Audio file"
       },
       {
-        "Option": "(D) MS Office document"
+        "Option": "D. MS Office document"
       }
     ],
-    "Correct Answer": "B) Animation/movie file"
+    "Correct Answer": "B. Animation/movie file"
   },
   {
     "Question": "The brain of any computer system is",
     "Options": [
       {
-        "Option": "ALU"
+        "Option": "A. ALU"
       },
       {
-        "Option": "Memory"
+        "Option": "B. Memory"
       },
       {
-        "Option": "CPU"
+        "Option": "C. CPU"
       },
       {
-        "Option": "Control unit"
-      },
-      {
-        "Option": "None of the above"
+        "Option": "D. Control unit"
       }
     ],
-    "Correct Answer": "CPU"
+    "Correct Answer": "C. CPU"
   },
   {
     "Question": "Which of the following computer languages is used for artificial intelligence?",
     "Options": [
       {
-        "Option": "FORTRAN"
+        "Option": "A. FORTRAN"
       },
       {
-        "Option": "PROLOG"
+        "Option": "B. PROLOG"
       },
       {
-        "Option": "C"
+        "Option": "C. COBOL"
       },
       {
-        "Option": "COBOL"
-      },
-      {
-        "Option": "None of the above"
+        "Option": "D. C"
       }
     ],
-    "Correct Answer": "PROLOG"
-  },
-  {
-    "Question": "What is a data structure?",
-    "Options": [
-      {
-        "Option": "a) A programming language"
-      },
-      {
-        "Option": "b) A collection of algorithms"
-      },
-      {
-        "Option": "c) A way to store and organize data"
-      },
-      {
-        "Option": "d) A type of computer hardware"
-      }
-    ],
-    "Correct Answer": "c"
+    "Correct Answer": "B. PROLOG"
   },
   {
     "Question": "Which was the first purely object-oriented programming language developed?",
     "Options": [
       {
-        "Option": "a) Kotlin"
+        "Option": "A. Kotlin"
       },
       {
-        "Option": "b) SmallTalk"
+        "Option": "B. SmallTalk"
       },
       {
-        "Option": "c) Java"
+        "Option": "C. Java"
       },
       {
-        "Option": "d) C++"
+        "Option": "D. C++"
       }
     ],
-    "Correct Answer": "b"
+    "Correct Answer": "B. SmallTalk"
+  },
+  {
+    "Question": "What is the name of the organization that regulates the insurance industry in India?",
+    "Options": [
+      {"Option":"A. IRDAI"},
+      {"Option":"B. IIB"},
+      {"Option":"C. IR"},
+      {"Option":"D. IOI"}
+    ],
+    "Correct Answer": "A. IRDAI"
+  },
+  {
+    "Question": "What is the name of Sun Life Financial's wealth management division?",
+    "Options": [
+      {"Option":"A. Sun Life Wealth"},
+      {"Option":"B. Sun Life Management"},
+      {"Option":"C. Sun Life Financial Wealth"},
+      {"Option":"D. Sun Life Capital"}
+    ],
+    "Correct Answer": "A. Sun Life Wealth"
+  },
+  {
+    "Question": "What type of insurance protects businesses from financial losses due to employee dishonesty?",
+    "Options": [
+      {"Option": "A. Catastrophe"},
+      {"Option":"B. Fidelity"},
+      {"Option":"C. Cyber"},
+      {"Option":"D. Key person"}
+    ],
+    "Correct Answer": "B. Fidelity"
+  },
+  {
+    "Question": "What is the name of Sun Life Financial's corporate responsibility program?",
+    "Options": [
+      {"Option":"A. Brighter Life"},
+      {"Option":"B. Brighter Day"},
+      {"Option":"C. Bright Life"},
+      {"Option":"D. Better Life"}
+    ],
+    "Correct Answer": "A. Brighter Life"
+  },
+  {
+    "Question": "Process by which an insurance company sets the premium for any insurance policy?",
+    "Options": [
+      {"Option":"A. Pricing"},
+      {"Option":"B. Risk Assessment"},
+      {"Option":"C. Underwriting"},
+      {"Option":"D. All of the above"}
+    ],
+    "Correct Answer": "C. Underwriting"
+  },
+  {
+    "Question": "When was Sun Life Financial founded?",
+    "Options": [
+      {"Option":"A. 1865"},
+      {"Option":"B. 1871"},
+      {"Option":"C. 1842"},
+      {"Option":"D. 1887"}
+    ],
+    "Correct Answer": "A. 1865"
+  },
+  {
+    "Question": "Who is the managing director of Sun Life Financial?",
+    "Options": [
+      {"Option":"A. Tarun Sareen"},
+      {"Option":"B. Ajayan Narayan"},
+      {"Option":"C. Ajitpal Singh"},
+      {"Option":"D. Chandan Barve"}
+    ],
+    "Correct Answer": "A. Tarun Sareen"
+  },
+  {
+    "Question": "Which Sun Life event won Ragan's award for virtual employee engagement?",
+    "Options": [
+      {"Option":"A. Sunny Life"},
+      {"Option":"B. Sunny Summer"},
+      {"Option":"C. SunVibe"},
+      {"Option":"D. Sun days"}
+    ],
+    "correctAnswer": "B. Sunny Summer"
+  },
+  {
+    "Question": "Who is the president of Sun Life Asia?",
+    "Options": [
+      {"Option":"A. Ingrid Johnson"},
+      {"Option":"B. Laura Money"},
+      {"Option":"C. Tom Murphy"},
+      {"Option":"D. Helena Pagano"}
+    ],
+    "Correct Answer": "A. Ingrid Johnson"
+  },
+  {
+    "Question": "What does the D stand for in BOLDER?",
+    "Options": [
+      {"Option":"A. Diversity"},
+      {"Option":"B. Driving outcomes"},
+      {"Option":"C. Driving results"},
+      {"Option":"D. Draw outcomes"}
+    ],
+    "Correct Answer": "B. Driving outcomes"
   }
 ]
