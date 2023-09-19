@@ -24,7 +24,8 @@ player_images = []
 for i in range(1, 5):
     player_images.append(
         pygame.transform.scale(
-            pygame.image.load(f"Geeky-Pac-Man/assets/player_images/{i}.png"), (45, 45)
+            pygame.image.load(
+                f"Geeky-Pac-Man/assets/player_images/{i}.png"), (45, 45)
         )
     )
 
@@ -41,7 +42,8 @@ clyde_img = pygame.transform.scale(
     pygame.image.load("Geeky-Pac-Man/assets/ghost_images/orange.png"), (45, 45)
 )
 spooked_img = pygame.transform.scale(
-    pygame.image.load("Geeky-Pac-Man/assets/ghost_images/powerup.png"), (45, 45)
+    pygame.image.load(
+        "Geeky-Pac-Man/assets/ghost_images/powerup.png"), (45, 45)
 )
 dead_img = pygame.transform.scale(
     pygame.image.load("Geeky-Pac-Man/assets/ghost_images/dead.png"), (45, 45)
@@ -73,7 +75,7 @@ flicker = False
 turns_allowed = [False, False, False, False]
 direction_command = 0
 
-player_speed = 3  # Increase this speed
+player_speed = 2  # Increase this speed
 score = 0
 
 
@@ -150,22 +152,26 @@ class Ghost:
             if level[(self.center_y - num3) // num1][self.center_x // num2] == 9:
                 self.turns[2] = True
             if level[self.center_y // num1][(self.center_x - num3) // num2] < 3 or (
-                level[self.center_y // num1][(self.center_x - num3) // num2] == 9
+                level[self.center_y //
+                      num1][(self.center_x - num3) // num2] == 9
                 and (self.in_box or self.dead)
             ):
                 self.turns[1] = True
             if level[self.center_y // num1][(self.center_x + num3) // num2] < 3 or (
-                level[self.center_y // num1][(self.center_x + num3) // num2] == 9
+                level[self.center_y //
+                      num1][(self.center_x + num3) // num2] == 9
                 and (self.in_box or self.dead)
             ):
                 self.turns[0] = True
             if level[(self.center_y + num3) // num1][self.center_x // num2] < 3 or (
-                level[(self.center_y + num3) // num1][self.center_x // num2] == 9
+                level[(self.center_y + num3) //
+                      num1][self.center_x // num2] == 9
                 and (self.in_box or self.dead)
             ):
                 self.turns[3] = True
             if level[(self.center_y - num3) // num1][self.center_x // num2] < 3 or (
-                level[(self.center_y - num3) // num1][self.center_x // num2] == 9
+                level[(self.center_y - num3) //
+                      num1][self.center_x // num2] == 9
                 and (self.in_box or self.dead)
             ):
                 self.turns[2] = True
@@ -175,7 +181,8 @@ class Ghost:
                     if level[(self.center_y + num3) // num1][
                         self.center_x // num2
                     ] < 3 or (
-                        level[(self.center_y + num3) // num1][self.center_x // num2]
+                        level[(self.center_y + num3) //
+                              num1][self.center_x // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -183,7 +190,8 @@ class Ghost:
                     if level[(self.center_y - num3) // num1][
                         self.center_x // num2
                     ] < 3 or (
-                        level[(self.center_y - num3) // num1][self.center_x // num2]
+                        level[(self.center_y - num3) //
+                              num1][self.center_x // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -192,7 +200,8 @@ class Ghost:
                     if level[self.center_y // num1][
                         (self.center_x - num2) // num2
                     ] < 3 or (
-                        level[self.center_y // num1][(self.center_x - num2) // num2]
+                        level[self.center_y //
+                              num1][(self.center_x - num2) // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -200,7 +209,8 @@ class Ghost:
                     if level[self.center_y // num1][
                         (self.center_x + num2) // num2
                     ] < 3 or (
-                        level[self.center_y // num1][(self.center_x + num2) // num2]
+                        level[self.center_y //
+                              num1][(self.center_x + num2) // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -211,7 +221,8 @@ class Ghost:
                     if level[(self.center_y + num3) // num1][
                         self.center_x // num2
                     ] < 3 or (
-                        level[(self.center_y + num3) // num1][self.center_x // num2]
+                        level[(self.center_y + num3) //
+                              num1][self.center_x // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -219,7 +230,8 @@ class Ghost:
                     if level[(self.center_y - num3) // num1][
                         self.center_x // num2
                     ] < 3 or (
-                        level[(self.center_y - num3) // num1][self.center_x // num2]
+                        level[(self.center_y - num3) //
+                              num1][self.center_x // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -228,7 +240,8 @@ class Ghost:
                     if level[self.center_y // num1][
                         (self.center_x - num3) // num2
                     ] < 3 or (
-                        level[self.center_y // num1][(self.center_x - num3) // num2]
+                        level[self.center_y //
+                              num1][(self.center_x - num3) // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -236,7 +249,8 @@ class Ghost:
                     if level[self.center_y // num1][
                         (self.center_x + num3) // num2
                     ] < 3 or (
-                        level[self.center_y // num1][(self.center_x + num3) // num2]
+                        level[self.center_y //
+                              num1][(self.center_x + num3) // num2]
                         == 9
                         and (self.in_box or self.dead)
                     ):
@@ -307,7 +321,7 @@ class Ghost:
                 self.direction = 2
                 self.y_pos -= self.speed
             elif not self.turns[2]:
-                if( self.target[0] > self.x_pos and self.turns[0]) or self.turns[0]:
+                if (self.target[0] > self.x_pos and self.turns[0]) or self.turns[0]:
                     self.direction = 0
                     self.x_pos += self.speed
                 elif (self.target[0] < self.x_pos and self.turns[1]) or self.turns[1]:
@@ -606,17 +620,20 @@ def draw_misc():
         pygame.draw.circle(screen, "blue", (140, 930), 15)
     for i in range(lives):
         screen.blit(
-            pygame.transform.scale(player_images[0], (30, 30)), (650 + i * 40, 915)
+            pygame.transform.scale(
+                player_images[0], (30, 30)), (650 + i * 40, 915)
         )
     if game_over:
         pygame.draw.rect(screen, "white", [50, 200, 800, 300], 0, 10)
         pygame.draw.rect(screen, "dark gray", [70, 220, 760, 260], 0, 10)
-        gameover_text = font.render(f"Game over! Space bar to restart! Score: {score}", True, "red")
+        gameover_text = font.render(
+            f"Game over! Space bar to restart! Score: {score}", True, "red")
         screen.blit(gameover_text, (100, 300))
     if game_won:
         pygame.draw.rect(screen, "white", [50, 200, 800, 300], 0, 10)
         pygame.draw.rect(screen, "dark gray", [70, 220, 760, 260], 0, 10)
-        gameover_text = font.render("Victory! Space bar to restart!", True, "green")
+        gameover_text = font.render(
+            "Victory! Space bar to restart!", True, "green")
         screen.blit(gameover_text, (100, 300))
 
 
@@ -689,7 +706,8 @@ def draw_board():
                 pygame.draw.arc(
                     screen,
                     color,
-                    [(j * num2 + (num2 * 0.5)), (i * num1 + (0.5 * num1)), num2, num1],
+                    [(j * num2 + (num2 * 0.5)),
+                     (i * num1 + (0.5 * num1)), num2, num1],
                     PI / 2,
                     PI,
                     3,
@@ -698,7 +716,8 @@ def draw_board():
                 pygame.draw.arc(
                     screen,
                     color,
-                    [(j * num2 + (num2 * 0.5)), (i * num1 - (0.4 * num1)), num2, num1],
+                    [(j * num2 + (num2 * 0.5)),
+                     (i * num1 - (0.4 * num1)), num2, num1],
                     PI,
                     3 * PI / 2,
                     3,
@@ -889,7 +908,7 @@ def get_targets(blink_x, blink_y, ink_x, ink_y, pink_x, pink_y, clyd_x, clyd_y):
     return [blink_target, ink_target, pink_target, clyd_target]
 
 
-question_timer = 20000
+question_timer = 7000
 
 # Variables to track game state
 question_displayed = False
@@ -898,7 +917,6 @@ last_question_time = pygame.time.get_ticks()
 
 run = True
 while run:
-    #  show_question()
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
@@ -910,11 +928,11 @@ while run:
         selected_option = show_question()
         if selected_option:
             score *= 2
-            print("Correct Answer")
+            print(f"Correct Answer. Score: {score}")
         else:
-            ghost_speeds = [speed * 2 for speed in ghost_speeds]
-            print("Incorrect Answer")
-        last_question_time = current_time
+            ghost_speeds = [speed + 1 for speed in ghost_speeds]
+            print("Incorrect Answer!")
+        last_question_time = current_time + 4000
 
         # Resume the game
         game_paused = False
@@ -946,8 +964,6 @@ while run:
         center_y = player_y + 24
         if powerup:
             ghost_speeds = [1, 1, 1, 1]
-        else:
-            ghost_speeds = [3, 3, 3, 3]
         if eaten_ghost[0]:
             ghost_speeds[0] = 2
         if eaten_ghost[1]:
@@ -970,7 +986,8 @@ while run:
             if 1 in level[i] or 2 in level[i]:
                 game_won = False
 
-        player_circle = pygame.draw.circle(screen, "black", (center_x, center_y), 20, 2)
+        player_circle = pygame.draw.circle(
+            screen, "black", (center_x, center_y), 20, 2)
         draw_player()
         blinky = Ghost(
             blinky_x,
@@ -1337,7 +1354,7 @@ while run:
             clyde_dead = False
     pygame.display.flip()
 
-print(score)
+print(f"Final Score: {score}")
 pygame.quit()
 
 pygame.display.quit()

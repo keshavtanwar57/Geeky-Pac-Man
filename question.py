@@ -3,7 +3,7 @@ import sys
 import json
 import random
 
-f = open('E:\React\Geeky-Pac-Man\questionBank.json')
+f = open('D:\Downloads\Geeky-Pac-Man-main\questionBank.json')
 data = json.load(f)
 
 # Initialize Pygame
@@ -15,20 +15,22 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 FONT = pygame.font.Font(None, 36)
 
-# QUESTION = "What is your favorite programming language?"
-# OPTIONS = ["A. Python", "B. Java", "C. JavaScript", "D. C++"]
 
 # Create a Pygame window
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 # Function to display the question and options
+
+
 def show_question():
 
     selected_option = None
     question_data = random.choice(data)
     correct_answer = question_data["Correct Answer"]
 
-    while True:
+    start_time = pygame.time.get_ticks()  # Record the start time
+
+    while pygame.time.get_ticks() - start_time < 5000:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
@@ -47,9 +49,10 @@ def show_question():
                         selected_option = option_text
         # screen.fill(WHITE)
         background = pygame.Surface((WIDTH, HEIGHT), pygame.SRCALPHA)
-        background.fill((255, 255, 255, 200))  # 200 is the alpha value for transparency
+        # 200 is the alpha value for transparency
+        background.fill((255, 255, 255, 200))
         screen.blit(background, (0, 0))
-        
+
         # Draw the question
         question_text = FONT.render(question_data["Question"], True, BLACK)
         question_rect = question_text.get_rect(center=(WIDTH // 2, 100))
@@ -72,8 +75,7 @@ def show_question():
 
         # If an option is selected, exit the loop and close the window
         if selected_option:
-            return selected_option == correct_answer
-
-    pygame.quit()
+            return str(selected_option["Option"]) == str(correct_answer)
+    return False
 
 # show_question()

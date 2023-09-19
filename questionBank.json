@@ -144,7 +144,7 @@
     "Correct Answer": "B. Security"
   },
   {
-    "Question": "Firewall in computer is used for",
+    "Question": "A dual layer blue ray disk can store data upto",
     "Options": [
       {
         "Option": "A.  20 GB"
@@ -214,5 +214,491 @@
       }
     ],
     "Correct Answer": "D. IBM"
+  },
+  {
+    "Question": "Which computer program converts assembly language to machine language",
+    "Options": [
+      {
+        "Option": "(a) Interpreter"
+      },
+      {
+        "Option": "(b) Compiler"
+      },
+      {
+        "Option": "(c) Assembler"
+      },
+      {
+        "Option": "(d) Comparator"
+      }
+    ],
+    "Correct Answer": "(c) Assembler"
+  },
+  {
+    "Question": "In which year ‘@’ sign was first chosen for its use in an e-mail address",
+    "Options": [
+      {
+        "Option": "(a) 1976"
+      },
+      {
+        "Option": "(b) 1980"
+      },
+      {
+        "Option": "(c) 1977"
+      },
+      {
+        "Option": "(d) 1972"
+      }
+    ],
+    "Correct Answer": "(d) 1972"
+  },
+  {
+    "Question": "Which one is the latest one from PARAM SuperSeries computers",
+    "Options": [
+      {
+        "Option": "(a) PARAM Yuva II"
+      },
+      {
+        "Option": "(b) PARAM 10000"
+      },
+      {
+        "Option": "(c) PARAM Padma"
+      },
+      {
+        "Option": "(d) PARAMnet"
+      }
+    ],
+    "Correct Answer": "(a) PARAM Yuva II"
+  },
+  {
+    "Question": "A folder in Windows computer can’t be made with the name",
+    "Options": [
+      {
+        "Option": "(a) can"
+      },
+      {
+        "Option": "(b) con"
+      },
+      {
+        "Option": "(c) mak"
+      },
+      {
+        "Option": "(d) make"
+      }
+    ],
+    "Correct Answer": "(b) con"
+  },
+  {
+    "Question": "What is the extension type of the Excel 2007 files",
+    "Options": [
+      {
+        "Option": "(a) .xls"
+      },
+      {
+        "Option": "(b) .xlsx"
+      },
+      {
+        "Option": "(c) .xsl"
+      },
+      {
+        "Option": "(d) None of the above"
+      }
+    ],
+    "Correct Answer": "(b) .xlsx"
+  },
+  {
+    "Question": "The maximum number of rows supported by Excel 2003 spreadsheet is",
+    "Options": [
+      {
+        "Option": "(a) 10,000"
+      },
+      {
+        "Option": "(b) 35,356"
+      },
+      {
+        "Option": "(c) 55,782"
+      },
+      {
+        "Option": "(d) 65,536"
+      }
+    ],
+    "Correct Answer": "(d) 65,536"
+  },
+  {
+    "Question": "Which of the following is not one of the early 'protocols,' or ways to use the Internet?",
+    "Options": [
+      {
+        "Option": "A) Blogging"
+      },
+      {
+        "Option": "B) Telnet"
+      },
+      {
+        "Option": "C) Gopher"
+      },
+      {
+        "Option": "D) FTP"
+      }
+    ],
+    "Correct Answer": "Blogging"
+  },
+  {
+    "Question": "A network designed to allow communication within an organization is called:",
+    "Options": [
+      {
+        "Option": "A) the World Wide Web"
+      },
+      {
+        "Option": "B) Yahoo"
+      },
+      {
+        "Option": "C) an intranet"
+      },
+      {
+        "Option": "D) the Internet"
+      }
+    ],
+    "Correct Answer": "an intranet"
+  },
+  {
+    "Question": "What is the value of π (pi) to three decimal places?",
+    "Options": [
+      {
+        "Option": "a) 3.141"
+      },
+      {
+        "Option": "b) 3.142"
+      },
+      {
+        "Option": "c) 3.1415"
+      },
+      {
+        "Option": "d) 3.1409"
+      }
+    ],
+    "Correct Answer": "c"
+  },
+  {
+    "Question": "What year did Apple launch the Macintosh 128K?",
+    "Options": [
+      {
+        "Option": "1983"
+      },
+      {
+        "Option": "1985"
+      },
+      {
+        "Option": "1977"
+      },
+      {
+        "Option": "1999"
+      }
+    ],
+    "Correct Answer": "1985"
+  },
+  {
+    "Question": "Identify the range of byte data types in JavaScript.",
+    "Options": [
+      {
+        "Option": "-10 to 9"
+      },
+      {
+        "Option": "-128 to 127"
+      },
+      {
+        "Option": "-32768 to 32767"
+      },
+      {
+        "Option": "-2147483648 to 2147483647"
+      }
+    ],
+    "Correct Answer": "-128 to 127"
+  },
+  {
+    "Question": "Which of the following is not a built-in module in NODE.js?",
+    "Options": [
+      {
+        "Option": "fs"
+      },
+      {
+        "Option": "http"
+      },
+      {
+        "Option": "mysql"
+      },
+      {
+        "Option": "path"
+      }
+    ],
+    "Correct Answer": "mysql"
+  },
+  {
+    "Question": "Which of the given options best describes the truthfulness of the following statements?",
+    "Options": [
+      {
+        "Option": "i. ASP.NET is a web framework designed and developed by Microsoft"
+      },
+      {
+        "Option": "ii. ASP.NET provides fantastic integration of HTML, CSS, and JavaScript"
+      }
+    ],
+    "Correct Answer": "True, True"
+  },
+  {
+    "Question": "IPV4 Address is",
+    "Options": [
+      {
+        "Option": "A. 8 bit"
+      },
+      {
+        "Option": "B. 16 bit"
+      },
+      {
+        "Option": "C. 32 bit"
+      },
+      {
+        "Option": "D. 64 bit"
+      }
+    ],
+    "Correct Answer": "C. 32 bit"
+  },
+  {
+    "Question": "DNS is the abbreviation of",
+    "Options": [
+      {
+        "Option": "A. Dynamic Name System"
+      },
+      {
+        "Option": "B. Dynamic Network System"
+      },
+      {
+        "Option": "C. Domain Name System"
+      },
+      {
+        "Option": "D. Domain Network Service"
+      }
+    ],
+    "Correct Answer": "C. Domain Name System"
+  },
+  {
+    "Question": "What is the meaning of Bandwidth in Network?",
+    "Options": [
+      {
+        "Option": "A. Transmission capacity of a communication channel"
+      },
+      {
+        "Option": "B. Connected Computers in the Network"
+      },
+      {
+        "Option": "C. Class of IP used in Network"
+      },
+      {
+        "Option": "D. None of the Above"
+      }
+    ],
+    "Correct Answer": "A. Transmission capacity of a communication channel"
+  },
+  {
+    "Question": "Which keys are used to switch between programs in Windows?",
+    "Options": [
+      {
+        "Option": "(A) Ctrl+TAB"
+      },
+      {
+        "Option": "(B) Alt+TAB"
+      },
+      {
+        "Option": "(C) Shift+TAB"
+      },
+      {
+        "Option": "(D) Shift+Enter"
+      }
+    ],
+    "Correct Answer": "B. Alt+TAB"
+  },
+  {
+    "Question": "What does the Internet prefix WWW stand for?",
+    "Options": [
+      {
+        "Option": "A) Wide Width Wickets"
+      },
+      {
+        "Option": "B) World Wide Web"
+      },
+      {
+        "Option": "C) Worldwide Weather"
+      },
+      {
+        "Option": "D) Western Washington World"
+      }
+    ],
+    "Correct Answer": "B) World Wide Web"
+  },
+  {
+    "Question": "A network designed to allow communication within an organization is called:",
+    "Options": [
+      {
+        "Option": "A) the World Wide Web"
+      },
+      {
+        "Option": "B) Yahoo"
+      },
+      {
+        "Option": "C) an intranet"
+      },
+      {
+        "Option": "D) the Internet"
+      }
+    ],
+    "Correct Answer": "C) an intranet"
+  },
+  {
+    "Question": "Which of these products is not made by the Apple Corporation?",
+    "Options": [
+      {
+        "Option": "A) IMAX"
+      },
+      {
+        "Option": "B) iPhone"
+      },
+      {
+        "Option": "C) iMac"
+      },
+      {
+        "Option": "D) iPod"
+      }
+    ],
+    "Correct Answer": "A) IMAX"
+  },
+  {
+    "Question": "Which of these is a file format for digital images?",
+    "Options": [
+      {
+        "Option": "A) CIA"
+      },
+      {
+        "Option": "B) JPG"
+      },
+      {
+        "Option": "C) ICBM"
+      },
+      {
+        "Option": "D) IBM"
+      }
+    ],
+    "Correct Answer": "B) JPG"
+  },
+  {
+    "Question": "How much did Steve Job’s first computer go for at auction?",
+    "Options": [
+      {
+        "Option": "$1.2 million"
+      },
+      {
+        "Option": "$500,000"
+      },
+      {
+        "Option": "$223,000"
+      },
+      {
+        "Option": "$3.4 million"
+      }
+    ],
+    "Correct Answer": "$1.2 million"
+  },
+  {
+    "Question": "'.MOV' extension refers usually to what kind of file?",
+    "Options": [
+      {
+        "Option": "(A) Image file"
+      },
+      {
+        "Option": "(B) Animation/movie file"
+      },
+      {
+        "Option": "(C) Audio file"
+      },
+      {
+        "Option": "(D) MS Office document"
+      }
+    ],
+    "Correct Answer": "B) Animation/movie file"
+  },
+  {
+    "Question": "The brain of any computer system is",
+    "Options": [
+      {
+        "Option": "ALU"
+      },
+      {
+        "Option": "Memory"
+      },
+      {
+        "Option": "CPU"
+      },
+      {
+        "Option": "Control unit"
+      },
+      {
+        "Option": "None of the above"
+      }
+    ],
+    "Correct Answer": "CPU"
+  },
+  {
+    "Question": "Which of the following computer languages is used for artificial intelligence?",
+    "Options": [
+      {
+        "Option": "FORTRAN"
+      },
+      {
+        "Option": "PROLOG"
+      },
+      {
+        "Option": "C"
+      },
+      {
+        "Option": "COBOL"
+      },
+      {
+        "Option": "None of the above"
+      }
+    ],
+    "Correct Answer": "PROLOG"
+  },
+  {
+    "Question": "What is a data structure?",
+    "Options": [
+      {
+        "Option": "a) A programming language"
+      },
+      {
+        "Option": "b) A collection of algorithms"
+      },
+      {
+        "Option": "c) A way to store and organize data"
+      },
+      {
+        "Option": "d) A type of computer hardware"
+      }
+    ],
+    "Correct Answer": "c"
+  },
+  {
+    "Question": "Which was the first purely object-oriented programming language developed?",
+    "Options": [
+      {
+        "Option": "a) Kotlin"
+      },
+      {
+        "Option": "b) SmallTalk"
+      },
+      {
+        "Option": "c) Java"
+      },
+      {
+        "Option": "d) C++"
+      }
+    ],
+    "Correct Answer": "b"
   }
 ]
